@@ -13,7 +13,7 @@ const config = {
 		}),
 		appDir: 'app',
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/projects/catsearch' : ''
+			base: process.env.NODE_ENV === 'production' ? '/projects/catsearch/' : ''
 		}
 	}
 };
