@@ -1,7 +1,7 @@
 <script lang="ts">
 	let value: string;
     let valid: boolean = false;
-	const redirect = () => (window.location.href = `./search?query=${encodeURI(value)}`);
+	const redirect = () => (window.location.href += `/search?query=${encodeURI(value)}`);
     $: valid = value != undefined && value !== '';
 </script>
 
